@@ -13,6 +13,7 @@
   
   Additionally, configuration values such as the search path and email credentials are read from a config.properties file — if it doesn’t exist, the user is prompted to enter them manually.
 
+
 ### ⚙️ Features
 
   ✅ Search for any file name or string pattern in a directory
@@ -21,12 +22,16 @@
   ✅ Handles both found and not found cases
   ✅ Secure communication via STARTTLS
 
+
+
 ### 📁 Project Structure
   shell_script_project/
   │
   ├── search_file.sh         # Main Bash script
   ├── config.properties      # Configuration file (path, pattern, mail settings)
   └── README.md              # Project documentation
+
+
 
 ### How It Works
   
@@ -44,6 +49,8 @@
   
   The results (or “not found” message) are sent via email using mailx.
 
+
+
 ### ⚙️ Requirements
 
   Before running the script, make sure:
@@ -58,6 +65,8 @@
   Start and enable the mail service:
   #sudo systemctl start postfix
   #sudo systemctl enable postfix
+
+
 
 ### 📄 Configuration File (config.properties)
 
