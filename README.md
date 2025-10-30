@@ -25,11 +25,11 @@
 
 
 ### 📁 Project Structure
-  shell_script_project/
+  shell_script_project/ <br>
   │
-  ├── search_file.sh         # Main Bash script
-  ├── config.properties      # Configuration file (path, pattern, mail settings)
-  └── README.md              # Project documentation
+  ├── search_file.sh         # Main Bash script <br>
+  ├── config.properties      # Configuration file (path, pattern, mail settings) <br>
+  └── README.md              # Project documentation <br>
 
 
 
