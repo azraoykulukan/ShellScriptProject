@@ -50,7 +50,7 @@
   You have mailx and postfix or sendmail installed.
   You have configured Gmail App Password for secure SMTP access.
   
-  Install required packages:
+  Install required packages: <br>
   ```#sudo yum install mailx postfix -y```
   
   Start and enable the mail service:
@@ -64,20 +64,21 @@
 
   Example:
   
-  path=/home/azra/Documents
-  pattern=rapor
-  mail_to=receiver@gmail.com
-  mail_from=sender@gmail.com
-  mail_pass=your_app_password_here
+  path=/home/azra/Documents<br>
+  pattern=rapor<br>
+  mail_to=receiver@gmail.com<br>
+  mail_from=sender@gmail.com<br>
+  mail_pass=your_app_password_here<br>
   
   
   💡 If this file is missing or empty, the script will ask for these values interactively.
 
 ### ▶️ Usage
   Run the script
+  ```
   chmod +x search_file.sh
   ./search_file.sh
-
+  ```
 ### Example Input/Output
 
  #### Case 1 – File Found:
