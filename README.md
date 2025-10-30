@@ -94,11 +94,11 @@
   ✅ Bulunan dosyalar:
     /home/azra/Documents/aylik_rapor.txt
     /home/azra/Documents/2025_rapor.docx
-  [MAIL] Gönderildi: ulukan1405@gmail.com
+  [MAIL] Gönderildi: receiver@gmail.com
   
   
   #### Case 2 – File Not Found:
   
   [INFO] Arama başlatılıyor: path='/home/azra/Documents' pattern='rapor'
   ❌ 'rapor' içeren veya adında 'rapor' bulunan dosya bulunamadı.
-  [MAIL] Bulunamadı bildirimi gönderildi: ulukan1405@gmail.com
+  [MAIL] Bulunamadı bildirimi gönderildi: receiver@gmail.com
